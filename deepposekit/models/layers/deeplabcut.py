@@ -127,7 +127,7 @@ def correct_pad(backend, inputs, kernel_size):
             (correct[1] - adjust[1], correct[1]))
 
 
-_obtain_input_shape = imagenet_utils.imagenet_utils._obtain_input_shape
+_obtain_input_shape = imagenet_utils._obtain_input_shape
 preprocess_input = imagenet_utils.preprocess_input
 
 WEIGHTS_PATH = ('https://github.com/fchollet/deep-learning-models/'
